@@ -33,6 +33,15 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 
     Your privacy is our priority. We are committed to protecting your personal data and providing you with communication channels to report any incident.
   </WelcomeItem>
+
+  <WelcomeItem>  
+    <template #icon>
+      <IconTooling />
+    </template>
+    <template #heading>NetWorking</template>
+    As an entrepreneur you have the opportunity to grow with us.
+  </WelcomeItem>
+  
 </template>
 
 <style scoped>
